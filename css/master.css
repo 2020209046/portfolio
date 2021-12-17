@@ -2,12 +2,11 @@
 *{margin: 0;padding: 0;text-decoration: none;list-style: none; font-family: 'Noto Sans KR';}
 
 
-.main_wrap{width: 100%; height: 997px;background-color: #00ABEB; background-image: url('../img/slogan.png');
-background-size: cover; }
+.main_wrap{width: 100%; height: 997px;background-color: #00ABEB; background-image: url('../img/slogan.png');background-size: cover;}
 
 
 
-header{position: fixed;top:60px;width: 100%;display: flex;justify-content: center; }
+header{position: fixed;top:60px;width: 100%;display: flex;justify-content: center; z-index: 1000;}
 
 header > ul{width: 1292px;height: 70px;display: flex;justify-content: center;}
 
